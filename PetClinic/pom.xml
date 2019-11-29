@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.spring.petClinic</groupId>
 	<artifactId>PetClinic</artifactId>
-	<version>0.0.4-SNAPSHOT</version>
+	<version>0.0.4</version>
 	<packaging>pom</packaging>
 	<name>PetClinic</name>
 	<description>Demo project for Spring Boot</description>
@@ -59,7 +59,7 @@
 	<scm>
 	<url>scm:git:https://github.com/kanha55266442/PetClinic-Eclipse.git</url>
 	  <developerConnection>scm:git:https://github.com/kanha55266442/PetClinic-Eclipse.git</developerConnection>
-	  <tag>HEAD</tag>
+	  <tag>PetClinic-0.0.4</tag>
 	</scm>
 
 </project>
