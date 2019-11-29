@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.spring.petClinic</groupId>
 	<artifactId>PetClinic</artifactId>
-	<version>0.0.7-SNAPSHOT</version>
+	<version>0.0.6-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>PetClinic</name>
 	<description>Demo project for Spring Boot</description>
