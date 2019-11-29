@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.spring.petClinic</groupId>
 	<artifactId>PetClinic</artifactId>
-	<version>0.0.6-SNAPSHOT</version>
+	<version>0.0.5-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>PetClinic</name>
 	<description>Demo project for Spring Boot</description>
@@ -51,7 +51,6 @@
 			   <groupId>org.apache.maven.plugins</groupId>
 			   <artifactId>maven-release-plugin</artifactId>
 			   <configuration>
-			        <autoVersionSubmodules>true</autoVersionSubmodules>         
 			       <goals>install</goals>
 			   </configuration>
 			</plugin>
