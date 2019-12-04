@@ -1,16 +1,7 @@
 package org.Pet.Clinic.Data.services;
 
-import java.util.Set;
-
 import org.Pet.Clinic.Data.model.Owner;
 
-public interface OwnerService {
+public interface OwnerService extends CrudService<Owner, String> {
 
-	Owner findByLastName(String lastName);
-
-	Owner findById(String id);
-	
-	Owner save(Owner owner);
-
-	Set<Owner> findAll();
 }

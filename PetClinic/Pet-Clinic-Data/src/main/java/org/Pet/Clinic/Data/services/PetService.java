@@ -1,13 +1,7 @@
 package org.Pet.Clinic.Data.services;
 
-import java.util.Set;
-
 import org.Pet.Clinic.Data.model.Pet;
 
-public interface PetService {
-	Pet findById(String id);
+public interface PetService extends CrudService<Pet, String> {
 
-	Pet save(Pet pet);
-
-	Set<Pet> findAll();
 }
